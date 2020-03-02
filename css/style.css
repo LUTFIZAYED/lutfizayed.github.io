@@ -291,9 +291,9 @@ header {
 
 
 
-/*  My services section  */
+/*  My about section  */
 
-.my-services {
+.my-about {
     background-color: var(--clr-dark);
     background-image: url(../img/services-bg.jpg);
     background-size: cover;
@@ -302,12 +302,12 @@ header {
     text-align: center;
 }
 
-.section__title--services {
+.section__title--about {
     color: var(--clr-accent);
     position: relative;
 }
 
-.section__title--services::after {
+.section__title--about::after {
     content: '';
     display: block;
     width: 2em;
@@ -317,17 +317,17 @@ header {
     opacity: 0.25;
 }
 
-.services {
+.about {
     margin-bottom: 4em;
 }
 
-.service {
+.about {
     max-width: 500px;
     margin: 0 auto;
 }
 
 @media (min-width: 800px) {
-    .services {
+    .about {
         display: flex;
         max-width: 1000px;
         margin-left: auto;
